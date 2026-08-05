@@ -1,0 +1,77 @@
+Linhas: 9991
+Colunas: 62
+
+Colunas disponiveis:
+  - Cargo (str)
+  - SIGLA_CARGO (str)
+  - Nome do Servidor (str)
+  - Matrícula SIAPE (int64)
+  - CPF (int64)
+  - Data de Nascimento (object)
+  - Idade (int64)
+  - Sexo (str)
+  - Escolaridade (str)
+  - Data de Ingresso no Órgão (datetime64[us])
+  - UF (str)
+  - Unidade de Exercício (Origem) (str)
+  - Secretaria (str)
+  - Órgão de Exercício (str)
+  - Sigla do Órgão de Exercício (str)
+  - E-Mail Institucional (str)
+  - Unnamed: 16 (float64)
+  - Total (int64)
+  - Hierarquia do cargo_Cargos (str)
+  - Tipo de afastamento_Afastados para estudo (str)
+  - Escolaridade do afastamento_Afastados para estudo (str)
+  - Instituição de ensino_Afastados para estudo (str)
+  - Cidade_Afastados para estudo (str)
+  - UF_Afastados para estudo (str)
+  - País_Afastados para estudo (str)
+  - Data de início_Afastados para estudo (str)
+  - Data estimada de encerramento_Afastados para estudo (str)
+  - Órgão/Entidade_Cedidos para estados e Municípios (str)
+  - Secretaria/Departamento_Cedidos para estados e Municípios (str)
+  - Cidade_Cedidos para estados e Municípios (str)
+  - Carreira_DB_SGC (str)
+  - Turma_DB_SGC (str)
+  - Jornada de trabalho_DB_SGC (str)
+  - Tipo de movimentação_DB_SGC (str)
+  - Situação funcional_DB_SGC (str)
+  - Órgão/Entidade_DB_SGC (str)
+  - Secretaria/Departamento_DB_SGC (str)
+  - Unidade_DB_SGC (str)
+  - Cidade_DB_SGC (str)
+  - UF_DB_SGC (str)
+  - País_DB_SGC (str)
+  - Data de início_DB_SGC (str)
+  - Tipo de duração_DB_SGC (str)
+  - Raça_Dados pessoais (str)
+  - Deficiência_Dados pessoais (str)
+  - Classe_Dados pessoais (str)
+  - Padrão_Dados pessoais (str)
+  - Ingresso na carreira_Datas de ingresso (str)
+  - Ingresso no órgão atual_Datas de ingresso (str)
+  - Órgão atual_Datas de ingresso (str)
+  - Tipo de licença_Licenciados (str)
+  - Cidade_Licenciados (str)
+  - UF_Licenciados (str)
+  - País_Licenciados (str)
+  - Data de início_Licenciados (str)
+  - Data estimada de encerramento_Licenciados (str)
+  - Órgão/Entidade_Servidores em órgãos fora do DF (str)
+  - Secretaria/Departamento_Servidores em órgãos fora do DF (str)
+  - Cidade_Servidores em órgãos fora do DF (str)
+  - UF_Servidores em órgãos fora do DF (str)
+  - Tipo de movimentação_Servidores em órgãos fora do DF (str)
+  - Tipo de movimentação_Situação atual por tipo de movimentação (str)
+
+Estatisticas descritivas (colunas numericas):
+       Matrícula SIAPE           CPF        Idade  Unnamed: 16   Total
+count     9.991000e+03  9.991000e+03  9991.000000          0.0  9991.0
+mean      1.843371e+06  3.340072e+10    45.425283          NaN     1.0
+std       8.666726e+05  3.370188e+10    10.126062          NaN     0.0
+min       5.830000e+02  5.302390e+05    18.000000          NaN     1.0
+25%       1.283932e+06  3.738410e+09    39.000000          NaN     1.0
+50%       1.586998e+06  1.407511e+10    44.000000          NaN     1.0
+75%       1.905242e+06  6.817954e+10    51.000000          NaN     1.0
+max       7.040884e+06  9.998058e+10    84.000000          NaN     1.0

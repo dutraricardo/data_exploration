@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cursor \"c:\\\\Users\\\\dutra\\\\projects\\\\data_exploration\\\\notebooks\\\\00_reconhecimento.ipynb\")",
+      "Bash(ls -la \"/c/Users/dutra/.claude/projects/c--Users-dutra-projects-data-exploration/memory/\" 2>&1)",
+      "Read(//c/Users/dutra/.claude/projects/c--Users-dutra-projects-data-exploration/memory//**)"
+    ]
+  }
+}
