@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "DB_SIAPE_processado_20260729.xlsx"
+DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "DB_SIAPE_processado_20260729_v2.xlsx"
 REPORT_PATH = Path(__file__).resolve().parent.parent / "reports" / "summary.txt"
 
 

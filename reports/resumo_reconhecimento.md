@@ -1,6 +1,6 @@
 # Resumo do Reconhecimento — Base SIAPE
 
-**Base analisada**: `data/raw/DB_SIAPE_processado_20260729.xlsx`
+**Base analisada**: `data/raw/DB_SIAPE_processado_20260729_v2.xlsx`
 **Tamanho**: 9.991 servidores, 62 colunas
 **Notebooks de origem**: `notebooks/00_reconhecimento.ipynb` a `notebooks/05_raca_deficiencia.ipynb`
 
@@ -121,7 +121,7 @@ Todas as análises seguiram estas regras, implementadas em `src/viz_style.py`:
 ## 8. Estrutura de arquivos
 
 ```
-data/raw/DB_SIAPE_processado_20260729.xlsx   # dado bruto, fora do git
+data/raw/DB_SIAPE_processado_20260729_v2.xlsx   # dado bruto, fora do git
 src/viz_style.py                             # paleta e helpers de gráfico/privacidade compartilhados
 notebooks/00_reconhecimento.ipynb            # estrutura da base (colunas, tipos, nulos, datas)
 notebooks/01_perfil_demografico.ipynb        # idade, sexo, escolaridade, UF

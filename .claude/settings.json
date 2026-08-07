@@ -3,7 +3,29 @@
     "allow": [
       "Bash(cursor \"c:\\\\Users\\\\dutra\\\\projects\\\\data_exploration\\\\notebooks\\\\00_reconhecimento.ipynb\")",
       "Bash(ls -la \"/c/Users/dutra/.claude/projects/c--Users-dutra-projects-data-exploration/memory/\" 2>&1)",
-      "Read(//c/Users/dutra/.claude/projects/c--Users-dutra-projects-data-exploration/memory//**)"
+      "Read(//c/Users/dutra/.claude/projects/c--Users-dutra-projects-data-exploration/memory//**)",
+      "Bash(ls -la data/raw/ 2>&1 *)",
+      "Read(//c/Users/dutra/Downloads//**)",
+      "Bash(tasklist //FI \"IMAGENAME eq python.exe\")",
+      "Bash(tasklist //FI \"IMAGENAME eq EXCEL.EXE\")",
+      "PowerShell(Get-CimInstance Win32_Process -Filter \"Name='python.exe'\")",
+      "PowerShell(Get-CimInstance Win32_Process -Filter \"ProcessId=13572 or ProcessId=3660\")",
+      "PowerShell(Stop-Process -Id 3660 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 13572 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Process -Id 13572,3660 -ErrorAction SilentlyContinue)",
+      "Bash(tasklist //FI \"PID eq 13572\")",
+      "Bash(tasklist //FI \"PID eq 3660\")",
+      "PowerShell(Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match 'data_exploration' -or $_.CommandLine -match 'SIAPE' } | Select-Object ProcessId, Name, CommandLine | Format-List)",
+      "Bash(tasklist //FI \"IMAGENAME eq MsMpEng.exe\")",
+      "Bash(tasklist //FI \"IMAGENAME eq SearchIndexer.exe\")",
+      "Bash(echo \"teste\")",
+      "Bash(rm data/raw/teste.txt)",
+      "PowerShell(Get-MpComputerStatus -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-MpThreatDetection -ErrorAction SilentlyContinue)",
+      "Bash(ls -la \"/c/Users/dutra/projects/data_exploration/.venv/Scripts/\" 2>&1 | grep -i python *)",
+      "Read(//c/Users/dutra/AppData/Roaming/uv/python//**)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)"
     ]
   }
 }
